@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  background-color: transparent;
+  font-family: "Roboto+Condensed", "Georgia", "Times New Roman";
+}
+
+body {
+  background-color: rgb(30, 30, 20);
+  color: white;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+

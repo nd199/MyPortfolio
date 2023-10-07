@@ -1,0 +1,154 @@
+#intro {
+  width: 100vw;
+  max-width: 75rem;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+}
+
+.profImage {
+  position: absolute;
+  top: 1rem;
+  z-index: -1;
+  object-fit: cover;
+  height: 100%;
+}
+
+.introContent {
+  height: 100vh;
+  width: 100vw;
+  padding: 2rem;
+  right: 0;
+  font-size: 3rem;
+  font-weight: 400;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 35rem;
+  flex-shrink: 1;
+}
+
+.hello {
+  font-size: 1.35rem;
+  font-weight: 100;
+}
+
+.introText {
+  margin-top: 0rem;
+  width: 100vw;
+}
+
+.introName {
+  color: yellow;
+}
+
+.introPara {
+  margin-top: 0.8rem;
+  font-weight: 100;
+  font-size: 15px;
+  letter-spacing: 1px;
+  display: flex;
+}
+
+.hireMe {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  padding: 0.75rem 1.4rem;
+  border-radius: 2rem;
+  margin: 1rem 0;
+  border-style: none;
+  cursor: pointer;
+}
+
+.hireImage {
+  margin: 0rem 0.5rem;
+  width: 20px;
+  height: 20px;
+}
+
+@media screen and (max-width: 1830px) {
+  .introContent {
+    margin-left: 50rem;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .introContent {
+    margin-left: 40rem;
+  }
+}
+
+@media screen and (max-width: 1030px) {
+  .introContent {
+    margin-left: 30rem;
+  }
+}
+
+@media screen and (max-width: 930px) {
+  .introContent {
+    margin-left: 25rem;
+    margin-top: 4rem;
+    font-size: 3rem;
+  }
+  .profImage {
+    left: -9rem;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .introContent {
+    margin-left: 20rem;
+    margin-top: 5rem;
+  }
+  .profImage {
+    left: -8rem;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .introContent {
+    margin-left: 15rem;
+    margin-top: 4.5rem;
+    font-size: 2rem;
+  }
+  .profImage {
+    left: -8rem;
+    opacity: 0.4;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .introContent {
+    margin-left: 4rem;
+    margin-top: 4.5rem;
+  }
+  .profImage {
+    left: -7rem;
+    opacity: 0.4;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .introContent {
+    margin-left: 1rem;
+    margin-top: 4.5rem;
+  }
+  .profImage {
+    left: -12rem;
+    opacity: 0.4;
+  }
+}
+
+@media screen and (max-width: 290px) {
+  .introContent {
+    margin-left: -1rem;
+    margin-top: 6.5rem;
+  }
+  .profImage {
+    left: -10rem;
+    opacity: 0.4;
+  }
+}
